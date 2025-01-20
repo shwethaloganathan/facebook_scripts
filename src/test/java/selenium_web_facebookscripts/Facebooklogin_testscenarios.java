@@ -10,7 +10,7 @@ public class Facebooklogin_testscenarios {
 		
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.facebook.com/");
-		driver.findElement(By.name("email")).sendKeys("shwetha");
+		driver.findElement(By.name("email"));
 		driver.findElement(By.name("pass")).sendKeys("apple123");
 		driver.findElement(By.name("login")).click();
 	}
